@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:scaleType="fitXY"
         android:adjustViewBounds="true"
-        android:id="@+id/imageView" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/daraz_logo_white" />
 
 </LinearLayout>
